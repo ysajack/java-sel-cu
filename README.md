@@ -2,5 +2,5 @@
 Simple Java Selenium Cucumber framework with Maven and integration of Inject WebDriver
 
 Maven
-To run locally: 
+Running locally:
 mvn clean test
