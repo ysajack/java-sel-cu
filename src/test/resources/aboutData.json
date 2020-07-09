@@ -1,0 +1,19 @@
+[
+  {
+    "appBuilt": [
+      "JavaScript/Angular5 framework, UI app hosted in Google Firebase",
+      "Java Rest Services/Jersey hosted in Google App Engine",
+      "MySQL hosted in Google Cloud SQL"
+    ],
+    "techniques": [
+      "Single Page App (SPA)",
+      "Components: Parent-components, sub-components",
+      "Data Binding: ngModel, Interpolation",
+      "Service: Inter-components data transferring, external Rest Services, HttpClient",
+      "Manipulation: Routing and Controlling for SPA (routing components, controlling views), ngFor (looping data), events (click, ngSubmit), Input Validation"
+    ],
+    "application": [
+      "\"Prescriptions on wheels\" is where users can create an Rx pickup job, which will have Uber pick up once Pharmacy completes the order, and Uber will deliver to the users' doorsteps."
+    ]
+  }
+]
