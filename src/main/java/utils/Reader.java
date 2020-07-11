@@ -1,12 +1,5 @@
 package utils;
 
-/*Aurguments say:
-  The static block is called once when the JVM initializes and loads the class.
-  The constructor is called every time the object is created.
-  Therefore, either have a static block then have the class load,
-  or have constructor and instantiate the object once.
-  In example below, using constructor*/
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -20,7 +13,6 @@ public class Reader {
     String textFile = "src/test/resources/aboutData.txt";
     static JSONArray arr;
 
-    //Using constructor to parse the json file once when an object is created
     public Reader(){
         arr = parse(jsonFile);
     }
